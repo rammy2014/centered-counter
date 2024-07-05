@@ -13,11 +13,14 @@ main {
 	background: #bada55;
 	width: 100vw;
 	height: 100vh;
+	padding: 20px;
+	position: relative;
 }
 
 .controls {
 	top: 2rem;
 	left: 2rem;
+	display: flex;
 }
 
 .control {
@@ -45,6 +48,12 @@ main {
 	border-radius: .4rem;
 	border: 2px solid green;
 	box-shadow: 1px 1px 4px 2px #557668;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin: auto;
+	position: absolute;
 }
 
 .count_button:active {
